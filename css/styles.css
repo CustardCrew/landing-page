@@ -1,7 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap'); */
 body {
     margin: 0;
-    background-color: #1F2937;
+    padding: 0;
+    background-color: #FFFFFF;
     text-align: center;
     font-family: 'Roboto', arial;
 }
@@ -50,7 +51,7 @@ a {
 }
 
 /* Main-Section*/
-.title-section {
+.hero-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +72,8 @@ a {
 .main-section h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bold;
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 .main-section p {
@@ -94,5 +96,118 @@ a {
     object-fit: cover;
     width: 500px;
     height: 300px;
+}
+
+/* Information section */
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: whitesmoke; */
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    gap: 64px;
+}
+.info-section h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.info {
+  max-width: 200px;  
+}
+
+.info img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid salmon;
+    border-radius: 12px;
+}
+
+.info .text {
+    margin-top: 10px;
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.quote p {
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937
+}
+
+.quote b {
+    padding-bottom: 30px;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 22px;
+}
+
+/* Action */
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 50px; 
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 9px;
+}
+
+.action-text {
+    padding: 0;
+    text-align: left;
+}
+
+.action-text h2 {
+    color: white;
+    padding: 0;
+}
+
+.action-text p {
+    padding: 0;
+    color: whitesmoke;
+}
+
+.action-sign {
+    flex: 1 1 auto;
+}
+
+.action-button button {
+    /* display: flex; */
+    background: #3882F6;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 25px;
+    margin: 0px 10px;
+    font-weight: bold;
+    width: auto;
+    font-size: 16px;
+}
+
+.footer {
+    color: white;
+    padding: 25px 25px;
+    background-color: #1F2937;
 }
 
